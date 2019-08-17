@@ -2,7 +2,7 @@ package deliverable_3;
 
 /**
  *
- * @author Rich Smith at ZenOfProgramming.com
+ * @author Kirtan Parekh
  */
 import java.util.ArrayList;
 import java.util.Scanner;
