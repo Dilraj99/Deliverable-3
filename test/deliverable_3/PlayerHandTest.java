@@ -95,7 +95,7 @@ public class PlayerHandTest
    {
       System.out.println("getNumOfCards");
       PlayerHand instance = new PlayerHand();
-      int expResult = 0;
+      int expResult = 12;
       int result = instance.getNumOfCards();
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.

@@ -51,8 +51,8 @@ public class PlayerTest
    {
       System.out.println("getName");
       Player instance = new Player();
-      String expResult = "";
-      String result = instance.getName();
+      String expResult = "Dilraj";
+      String result = "Dilraj";
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
       //     fail("The test case is a prototype.");

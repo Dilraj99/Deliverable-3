@@ -60,7 +60,7 @@ public class StartTest
     * Test of playAgain method, of class Start.
     */
    @Test
-   public void testPlayAgainGood ()
+   public void testPlayAgain ()
    {
       System.out.println("playAgain");
       boolean expResult = true;

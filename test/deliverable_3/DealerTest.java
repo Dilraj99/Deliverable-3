@@ -64,7 +64,6 @@ public class DealerTest
    {
       System.out.println("getName");
       Dealer instance = new Dealer();
-      instance.setName("Dealerer");
       String expResult = "Dealerer";
       String result = instance.getName();
       assertEquals(expResult, result);

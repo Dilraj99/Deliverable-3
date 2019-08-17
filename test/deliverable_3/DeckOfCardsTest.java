@@ -20,26 +20,26 @@ import org.junit.Test;
  */
 public class DeckOfCardsTest
 {
-
+   
    public DeckOfCardsTest ()
    {
    }
-
+   
    @BeforeClass
    public static void setUpClass ()
    {
    }
-
+   
    @AfterClass
    public static void tearDownClass ()
    {
    }
-
+   
    @Before
    public void setUp ()
    {
    }
-
+   
    @After
    public void tearDown ()
    {
@@ -112,6 +112,7 @@ public class DeckOfCardsTest
       System.out.println("dealCard");
       DeckOfCards instance = new DeckOfCards();
       Card expResult = null;
+      expResult.setValue(10);
       Card result = instance.dealCard();
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
@@ -176,5 +177,5 @@ public class DeckOfCardsTest
       // TODO review the generated test code and remove the default call to fail.
       //  fail("The test case is a prototype.");
    }
-
+   
 }

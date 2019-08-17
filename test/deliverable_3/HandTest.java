@@ -52,7 +52,7 @@ public class HandTest
    {
       System.out.println("getPlayerName");
       Hand instance = null;
-      String expResult = "";
+      String expResult = "Dilraj";
       String result = instance.getPlayerName();
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
@@ -110,7 +110,7 @@ public class HandTest
    {
       System.out.println("hitOrStay");
       Hand instance = null;
-      String expResult = "";
+      String expResult = "hit";
       String result = instance.hitOrStay();
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
@@ -140,12 +140,12 @@ public class HandTest
    public void testGameStatus ()
    {
       System.out.println("gameStatus");
-      int score = 0;
-      int totalCards = 0;
-      String name = "";
+      int score = 20;
+      int totalCards = 12;
+      String name = "DipeshKirtan";
       Hand instance = null;
-      String expResult = "";
-      String result = instance.gameStatus(score, totalCards, name);
+      String expResult = "DipeshKirtan";
+      String result = instance.gameStatus(20, 12, "DipeshKirtan");
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
       // fail("The test case is a prototype.");
@@ -158,12 +158,12 @@ public class HandTest
    public void testIsWin ()
    {
       System.out.println("isWin");
-      String playerStatus = "";
-      String dealerStatus = "";
-      int dealerScore = 0;
-      int playerScore = 0;
+      String playerStatus = "win";
+      String dealerStatus = "lose";
+      int dealerScore = 23;
+      int playerScore = 17;
       Hand instance = null;
-      String expResult = "";
+      String expResult = "win";
       String result = instance.isWin(playerStatus, dealerStatus, dealerScore, playerScore);
       assertEquals(expResult, result);
       // TODO review the generated test code and remove the default call to fail.
