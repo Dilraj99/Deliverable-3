@@ -1,6 +1,7 @@
 package deliverable_3;
 /**
- * @author Rich Smith at ZenOfProgramming.com
+ * @author Kirtan Parekh
+ * Acts as a dealer
  */
 import java.util.ArrayList;
 
